@@ -2,8 +2,12 @@
 Simple code quiz using html,css & js. 
 Five questions in 60 seconds, once completed score will be displayed along with highscores.
 
+
 Github: https://github.com/hluckyr/urban-octo-fishstick
+
 Screenshot:
+![81C31C4E-5E69-448E-BB81-8AD6F3588BF5](https://github.com/hluckyr/urban-octo-fishstick/assets/137447730/07060dc6-9df0-4d97-b7ad-7a4dbf638423)
+![F49A97EC-6E01-4796-84A5-269FE5C5411E](https://github.com/hluckyr/urban-octo-fishstick/assets/137447730/8f12e2cd-cf5b-411b-8c63-33bf564c979a)
 
 Tutor session with Mila Hose 
 ---------
