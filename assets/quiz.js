@@ -1,9 +1,8 @@
 //var starting
-var welcome = document.querySelector("#introduction");
-var startBtn = document.querySelector("#start_button");
-var introPage = document.querySelector("#intro_page");
-
-var questionPage = document.querySelector("#question_page");
+var homepage = document.querySelector("#homepage");
+var startBtn = document.querySelector("#start-btn");
+var introCard = document.querySelector("#intro-card");
+var questionCard = document.querySelector("#question-card");
 var askQuestion = document.querySelector("#ask_question");
 
 var reactButtons = document.querySelectorAll(".choices");
@@ -13,12 +12,12 @@ var answerBtn3 = document.querySelector("#answer_btn3");
 var answerBtn4 = document.querySelector("#answer_btn4");
 
 var checkLine = document.querySelector("#check_line");
-var scoreBoard = document.querySelector("#submit_page");
+var scoreCard = document.querySelector("#submit-card");
 var finalScore = document.querySelector("#final_score");
 var userInitial = document.querySelector("#initial");
 
 var submitBtn = document.querySelector("#submit_btn");
-var highScorePage = document.querySelector("#highscore_page");
+var highscoreCard = document.querySelector("#highscore-card");
 var scoreRecord = document.querySelector("#score_record");
 var scoreCheck = document.querySelector("#score_check");
 var finish = document.querySelector("#finish");
@@ -85,8 +84,8 @@ function countdown() {
 
 //start button
 function startQuiz() {
-    introPage.style.display = "none";
-    questionPage.style.display = "block";
+    introCard.style.display = "none";
+    questionCard.style.display = "block";
     questionNumber = 0
     countdown();
     showQuestion(questionNumber);
@@ -134,8 +133,8 @@ function checkAnswer(event) {
 //end game after questions are answered
 function gameOver() {
 
-    questionPage.style.display = "none";
-    scoreBoard.style.display = "block";
+    questionCard.style.display = "none";
+    scoreCard.style.display = "block";
     console.log(scoreBoard);
     //final score
     finalScore.textContent = "Your final score is :" + totalScore;
@@ -210,30 +209,30 @@ reactButtons.forEach(function (click) {
 //save info and go to next page
 submitBtn.addEventListener("click", function (event) {
     event.preventDefault();
-    scoreBoard.style.display = "none";
-    introPage.style.display = "none";
-    highScorePage.style.display = "block";
-    questionPage.style.display = "none";
+    scoreCard.style.display = "none";
+    introCard.style.display = "none";
+    highscoreCard.style.display = "block";
+    questionCard.style.display = "none";
     saveScore();
 });
 
 // check high score ranking list
 scoreCheck.addEventListener("click", function (event) {
     event.preventDefault();
-    scoreBoard.style.display = "none";
-    introPage.style.display = "none";
-    highScorePage.style.display = "block";
-    questionPage.style.display = "none";
+    scoreCard.style.display = "none";
+    introCard.style.display = "none";
+    highscoreCard.style.display = "block";
+    questionCard.style.display = "none";
     renderScore();
 });
 
 //back to main page
 backBtn.addEventListener("click", function (event) {
     event.preventDefault();
-    scoreBoard.style.display = "none";
-    introPage.style.display = "block";
-    highScorePage.style.display = "none";
-    questionPage.style.display = "none";
+    scoreCard.style.display = "none";
+    introCard.style.display = "block";
+    highscoreCard.style.display = "none";
+    questionCard.style.display = "none";
     location.reload();
 });
 
