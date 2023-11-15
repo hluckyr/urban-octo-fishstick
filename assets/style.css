@@ -1,59 +1,16 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
 
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(239, 137, 137);
-}
 
 
 body {
-    background-color: #f4c0e3;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: center;
-    color: rgb(230, 128, 4);
+    background-color: #FFC0CB;
 }
 
-h1 {
-    color: #FF8C00;
-}
 
-p {
+h1, h2, h3, p {
     color: #FFA500;
 }
 
+
 a {
-    color: #FF4500;
-}
-
-button {
-    background-color: #FF8C00;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input {
-    border: 2px solid #FFA500;
-    padding: 10px;
-    font-size: 16px;
-    color: #333;
-}
-
-input[type="submit"] {
-    background-color: #FF8C00;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #FF8C00;
 }
