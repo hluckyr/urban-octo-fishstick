@@ -5,7 +5,7 @@ Five questions in 60 seconds, once completed score will be displayed along with 
 
 Github: https://github.com/hluckyr/urban-octo-fishstick
 
-Screenshot:
+Screenshot:![Alt text](<Screenshot 2023-11-15 at 7.27.00 AM-1.png>)
 
 
 Tutor session with Mila Hose 
