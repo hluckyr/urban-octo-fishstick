@@ -66,6 +66,15 @@ function displayQuestion() {
         answerEl.appendChild(answerChoice);
     }
 }
+// Display final score
+function displayFinalScore() {
+    questionEl.textContent = "All done!";
+    answerEl.innerHTML = "Your final score is " + score + ".";
+    initialsEl.style.display = "block";
+}
+
+// Call displayFinalScore function
+displayFinalScore();
 
 //function to check the answer
 function checkAnswer() {
@@ -96,8 +105,8 @@ function endQuiz() {
     questionEl.textContent = "All done!";
     answerEl.innerHTML = "Your final score is " + score + ".";
     initialsEl.style.display = "block";
-
 }
+
 
 //start button eventlistener
 startButton.addEventListener("click", startQuiz);

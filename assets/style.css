@@ -1,16 +1,37 @@
-
-
-
 body {
     background-color: #FFC0CB;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
 h1, h2, h3, p {
+    text-align: center;
     color: #FFA500;
 }
 
+#timer,
+#time-remaining{
+    color: limegreen;
 
-a {
+}
+
+#question,
+#choices
+{
+    color: aqua;
+}
+
+a, form {
+    text-align: right;
     color: #FF8C00;
+}
+
+#start-button,
+#submit-button {
+    color: #FFA500;
+}
+
+#quiz-screen,
+#end-screen,
+#final-score {
+    display: hide;
 }
